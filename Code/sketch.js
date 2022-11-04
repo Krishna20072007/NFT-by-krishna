@@ -1,6 +1,6 @@
-function draw() {
+function setup() {
+  for (let i = 0; i < 5; i++){
     angleMode(DEGREES);
-    frameRate(2);
     createCanvas(400, 400);
     noFill();
     background(252, random(198, 252), 3);
@@ -17,3 +17,4 @@ function draw() {
     // saveCanvas("smile.jpg");
   }
 
+}
