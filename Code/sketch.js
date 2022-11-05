@@ -1,5 +1,5 @@
-function setup() {
-  for (let i = 0; i < 5; i++){
+function draw() {
+  frameRate(100)
     angleMode(DEGREES);
     createCanvas(400, 400);
     noFill();
@@ -14,7 +14,5 @@ function setup() {
     ellipse(75, -50, 50, eye);
     arc(0, 50, 300, 200, 360, 180);
 
-    // saveCanvas("smile.jpg");
+    saveCanvas("smile.jpg");
   }
-
-}
