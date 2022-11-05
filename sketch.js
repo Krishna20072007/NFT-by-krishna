@@ -1,5 +1,4 @@
-function draw() {
-  frameRate(100)
+function setup() {
     angleMode(DEGREES);
     createCanvas(400, 400);
     noFill();
@@ -14,5 +13,5 @@ function draw() {
     ellipse(75, -50, 50, eye);
     arc(0, 50, 300, 200, 360, 180);
 
-    saveCanvas("smile.jpg");
+    //saveCanvas("smile.jpg");
   }
